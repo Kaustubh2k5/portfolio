@@ -11,10 +11,10 @@ import {
   Globe, Database, Rocket, Terminal, Layers
 } from 'lucide-react';
 
-import newsmeImg from "./assets/newsme.png";
-import originalImg from "./assets/original.jpeg";
-import digitalImg from "./assets/digital.jpeg";
-import mediaImg from "./assets/media.jpeg";
+import newsmeImg from "./src/assets/newsme.png";
+import originalImg from "./src/assets/original.jpeg";
+import digitalImg from "./src/assets/digital.jpeg";
+import mediaImg from "./src/assets/media.jpeg";
 
 const PROJECTS: Project[] = [
   {
