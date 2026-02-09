@@ -1,0 +1,9 @@
+
+{
+  "name": "Kaustubh Portfolio",
+  "description": "A sleek, modern portfolio featuring Kaustubh Sardesai !!",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
