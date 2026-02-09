@@ -10,7 +10,6 @@ import {
   Binary, Cpu, Server, Cloud, Container, Github, 
   Globe, Database, Rocket, Terminal, Layers
 } from 'lucide-react';
-
 const PROJECTS: Project[] = [
   {
     id: '1',
@@ -32,16 +31,16 @@ const PROJECTS: Project[] = [
     id: '3',
     title: 'NewsMe AI Platform',
     description: 'Scalable FastAPI newsletter service with Dockerized deployment, serving customized content to 100+ active users.',
-    image: 'newsme.png',
+    image: '.src/assets/newsme.png',
     tags: ['Docker', 'FastAPI', 'Scraping'],
     link: 'https://newsmeai.xyz'
   }
 ];
 
 const ARTWORKS: ArtWork[] = [
-  { id: '1', title: 'Original Sketches', category: 'Sketching', image: 'original.jpeg' },
-  { id: '2', title: 'Digital Sketches', category: 'Digital Art', image: 'digital.jpeg' },
-  { id: '3', title: 'From Popular Media', category: 'Illustration', image: 'media.jpeg' },
+  { id: '1', title: 'Original Sketches', category: 'Sketching', image: '.src/assets/original.jpeg' },
+  { id: '2', title: 'Digital Sketches', category: 'Digital Art', image: '.src/assets/digital.jpeg' },
+  { id: '3', title: 'From Popular Media', category: 'Illustration', image: '.src/assets/media.jpeg' },
   { id: '4', title: 'WIP', category: 'Design', image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=600' },
 ];
 
