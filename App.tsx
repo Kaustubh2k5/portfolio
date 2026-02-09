@@ -10,6 +10,12 @@ import {
   Binary, Cpu, Server, Cloud, Container, Github, 
   Globe, Database, Rocket, Terminal, Layers
 } from 'lucide-react';
+
+import newsmeImg from "./assets/newsme.png";
+import originalImg from "./assets/original.jpeg";
+import digitalImg from "./assets/digital.jpeg";
+import mediaImg from "./assets/media.jpeg";
+
 const PROJECTS: Project[] = [
   {
     id: '1',
@@ -31,16 +37,16 @@ const PROJECTS: Project[] = [
     id: '3',
     title: 'NewsMe AI Platform',
     description: 'Scalable FastAPI newsletter service with Dockerized deployment, serving customized content to 100+ active users.',
-    image: '.src/assets/newsme.png',
+    image: newsmeImg,
     tags: ['Docker', 'FastAPI', 'Scraping'],
     link: 'https://newsmeai.xyz'
   }
 ];
 
 const ARTWORKS: ArtWork[] = [
-  { id: '1', title: 'Original Sketches', category: 'Sketching', image: '.src/assets/original.jpeg' },
-  { id: '2', title: 'Digital Sketches', category: 'Digital Art', image: '.src/assets/digital.jpeg' },
-  { id: '3', title: 'From Popular Media', category: 'Illustration', image: '.src/assets/media.jpeg' },
+  { id: '1', title: 'Original Sketches', category: 'Sketching', image: originalImg },
+  { id: '2', title: 'Digital Sketches', category: 'Digital Art', image: digitalImg },
+  { id: '3', title: 'From Popular Media', category: 'Illustration', image: mediaImg },
   { id: '4', title: 'WIP', category: 'Design', image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=600' },
 ];
 
