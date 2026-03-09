@@ -250,7 +250,7 @@ const App: React.FC = () => {
                 kaustubh2k5@gmail.com <ArrowRight className="group-hover:translate-x-2 transition-transform" />
               </a>
               <div className="flex gap-8 text-white/30 font-black uppercase tracking-widest text-xs">
-                 <a href="https://linkedin.com/in/kaustubh-sardesai" target="_blank" className="hover:text-white transition-colors">LinkedIn</a>
+                 <a href="https://www.linkedin.com/in/kaustubh-sardesai2k5/" target="_blank" className="hover:text-white transition-colors">LinkedIn</a>
                  <a href="https://github.com/Kaustubh2k5" target="_blank" className="hover:text-white transition-colors">GitHub</a>
               </div>
             </div>
