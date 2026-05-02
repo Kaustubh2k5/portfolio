@@ -56,7 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onCatClick, isCatTalking }) => {
                 <Github size={18} className="text-white/40 group-hover:text-white transition-colors" />
               </a>
               <a 
-                href="https://linkedin.com/in/kaustubh-sardesai" 
+                href="https://www.linkedin.com/in/kaustubh-sardesai2k5/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-2.5 rounded-full hover:drop-shadow-[0_0_12px_rgba(255,123,0,0.9)] transition-all duration-300 group"
